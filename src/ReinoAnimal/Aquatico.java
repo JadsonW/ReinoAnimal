@@ -5,9 +5,9 @@ public class Aquatico extends Animal{
 	String tipoAgua;//atributo que especifica o tipo de agua que o animal vive
 	boolean possuiEscama; //atributo que especifica se o animal possui escama
 	
-	public Aquatico(String especie, String sexo, String dtNascimento, int contador, String tipoAgua,
+	public Aquatico(String especie, String sexo, String dtNascimento, String tipoAgua,
 			boolean possuiEscama) {
-		super(especie, sexo, dtNascimento, contador);
+		super(especie, sexo, dtNascimento, getContador());
 		this.tipoAgua = tipoAgua;
 		this.possuiEscama = possuiEscama;
 	}//construtor da classe

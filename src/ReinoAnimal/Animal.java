@@ -4,7 +4,7 @@ public class Animal {
 	String especie; //Atributo especie
 	String sexo; //Atributo sexo
 	String dtNascimento; //Atributo data de nascimento
-	int contador; //Atributo contador(informa o total de animais, a partir de um incremento ao instanciamento
+	private static int contador; //Atributo contador(informa o total de animais, a partir de um incremento ao instanciamento
 	
 	public Animal(String especie, String sexo, String dtNascimento, int contador) {
 		super();
@@ -34,7 +34,7 @@ public class Animal {
 	public void setDtNascimento(String dtNascimento) {
 		this.dtNascimento = dtNascimento;
 	}//Metodo setDtNascimento, adiciona a data de nascimento no animal
-	public int getContador() {
+	public static int getContador() {
 		return contador;
 	}//Metodo getContador, retorna a qunatidade de animais
 	private void setContador(int contador) {

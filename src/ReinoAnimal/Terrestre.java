@@ -5,9 +5,9 @@ public class Terrestre extends Animal{
 	String regiao; //Atributo referente a regiao onde o animal vive
 	boolean possuiPelo; //Atributo que veirifca se o animakl possui pelo
 
-	public Terrestre(String especie, String sexo, String dtNascimento, int contador, String regiao,
+	public Terrestre(String especie, String sexo, String dtNascimento, String regiao,
 			boolean possuiPelo) {
-		super(especie, sexo, dtNascimento, contador);
+		super(especie, sexo, dtNascimento, getContador());
 		this.regiao = regiao;
 		this.possuiPelo = possuiPelo;
 	}//contrutor da class

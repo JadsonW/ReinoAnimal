@@ -3,8 +3,8 @@ public class Aereo extends Animal{
 
 	double altitudePossivel;//Atributo referente a altitude maxima de voo
 	
-	public Aereo(String especie, String sexo, String dtNascimento, int contador, double altitudePossivel) {
-		super(especie, sexo, dtNascimento, contador);
+	public Aereo(String especie, String sexo, String dtNascimento, double altitudePossivel) {
+		super(especie, sexo, dtNascimento, getContador());
 		this.altitudePossivel = altitudePossivel;
 	}//construtor da class
 
