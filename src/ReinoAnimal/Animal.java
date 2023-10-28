@@ -41,4 +41,14 @@ public class Animal {
 		this.contador = contador;
 	}//Metodo setContador, adiciona um animal
 	
+	public String comer() {
+		return "o animal esta comendo";
+	}// metodo q informa que o animal esta comendo
+	
+	public void perfil() {
+		System.out.println("Especie: " + getEspecie());
+		System.out.println("Sexo: " + getSexo());
+		System.out.println("Data de nascimento: " + getDtNascimento());
+	}//metodo que mostra o perfil as caracteristicas do animal
+	
 }
